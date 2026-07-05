@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha384-fgGyf7Mo7DURSOMnOy7ed+dkq5Job205Gnzu6QIg0BOHKaqt4D76Dt8VlDCzcMHV" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha384-3zSEDfvllQohrq0PHL1fOXJuC/jSOO34H46t6UQfobFOmxE5BpjjaIJY5F2/bMnU" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Senserobot / 元萝卜<br>Wi-Fi QR code generator</h1>
+
+<p>
+  Enter your network information below to generate a QR code for
+  connecting the Senserobot to Wi-Fi.
+</p>
+
+<form>
+  SSID: <input type="text" name="ssid" autofocus><br>
+  Password: <input type="text" name="ssid_pwd"><br>
+</form>
+
+<div id="qrcode"></div>
+
+<pre id="text"><pre>
+
+<script src="senserobot.js"></script>
+
+</body>
+</html>
